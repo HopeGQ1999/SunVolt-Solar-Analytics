@@ -344,7 +344,7 @@ SELECT customer_id,
 
 FROM SunVolt.dbo.customers
 GROUP BY customer_id
-HAVING customer_id > 1;
+HAVING COUNT(customer_id) > 1;
 
 --E3: Finding Mismatches
 
