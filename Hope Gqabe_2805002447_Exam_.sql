@@ -61,7 +61,7 @@ GO
 
 IMPORT
 
--- 1. Insert and map the data from the temporary table to your existing table
+-- 1. Insert and map the data from the temporary table to existing table
 INSERT INTO SunVolt.dbo.customers (
     customer_id,
     marital_status,
@@ -72,7 +72,7 @@ INSERT INTO SunVolt.dbo.customers (
     occupation,
     homeowner_status,
     vehicles_owned,
-    distance_band,            -- <--- Your target column
+    distance_band,          
     region,
     age,
     purchased_solar_system,
@@ -91,7 +91,7 @@ SELECT
     [Occupation],
     [Homeowner_Status],
     [Vehicles_Owned],
-    [Distance_from_Nearest_Installer], -- <--- Maps Excel column to distance_band
+    [Distance_from_Nearest_Installer], 
     [Region],
     [Age],
     [Purchased_Solar_System],
@@ -99,13 +99,15 @@ SELECT
     [Age_Group],
     [Income_Band],
     Installer_Distance_Order
-    -- [Installer Distance Order] is omitted here, so it is completely ignored
+
+	
+
 FROM SunVolt.dbo.SunVolt_Solar_Customer_temp;
 
--- 2. Drop the temporary staging table to keep your database clean
+-- 2. Drop the temporary staging table to keep database clean
 DROP TABLE SunVolt.dbo.SunVolt_Solar_Customer_temp;
 
--- 3. Return the final total row count of the customers table
+-- 3. Returning the final total row count of the customers table
 SELECT COUNT(*) AS total_customers 
 FROM SunVolt.dbo.customers;
 
