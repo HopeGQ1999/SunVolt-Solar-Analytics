@@ -17,6 +17,10 @@
 ## Project Overview
 This repository contains an end-to-end data analysis and business intelligence project for **SunVolt**, a residential solar energy provider. The project demonstrates database schema creation, data ingestion, exploratory SQL querying, data quality auditing, and interactive dashboard reporting to evaluate customer demographics and solar system conversion rates.
 
+<img width="1584" height="672" alt="image" src="https://github.com/user-attachments/assets/0efae4a2-84ff-445e-8e73-63ee9c4d0868" />
+
+
+
 ---
 
 ## Repository Structure
@@ -54,7 +58,7 @@ The SQL script is organized into five progressive sections designed for **Micros
 The accompanying `.pbix` file connects to the `SunVolt` dataset to provide visual decision-support across **2 report pages** and **12 interactive visuals**. 
 * **Key Focus Areas**: Customer demographic distribution, regional conversion performance, income vs. purchase propensity, and installer distance impact.
 
-  <img width="1325" height="745" alt="image" src="https://github.com/user-attachments/assets/d1939973-ab5f-46e7-9370-9dd2700e3ccd" />
+ <p align="center"> <img width="1325" height="745" alt="image" src="https://github.com/user-attachments/assets/d1939973-ab5f-46e7-9370-9dd2700e3ccd" /> </p>
 
 
 ---
