@@ -1,5 +1,19 @@
 # SunVolt Solar Customer Analytics: SQL & Power BI Project
 
+## Table of Contents
+* [Project Overview](#project-overview)
+* [Repository Structure](#repository-structure)
+* [SQL Script Breakdown (`SunVolt_Analysis.sql`)](#sql-script-breakdown-sunvolt_analysissql)
+  * [Section A: Database & Table Creation](#section-a-database--table-creation)
+  * [Section B: Selecting, Filtering & Aliases](#section-b-selecting-filtering--aliases)
+  * [Section C: Aggregation & Grouping](#section-c-aggregation--grouping)
+  * [Section D: Joins & Subqueries](#section-d-joins--subqueries)
+  * [Section E: Data Quality & Conditional Logic](#section-e-data-quality--conditional-logic)
+* [Power BI Report (`SunVolt_Dashboard.pbix`)](#power-bi-report-sunvolt_dashboardpbix)
+* [How to Run & Review](#how-to-run--review)
+  * [1. Running the SQL Script](#1-running-the-sql-script)
+  * [2. Viewing the Power BI Report](#2-viewing-the-power-bi-report)
+
 ## Project Overview
 This repository contains an end-to-end data analysis and business intelligence project for **SunVolt**, a residential solar energy provider. The project demonstrates database schema creation, data ingestion, exploratory SQL querying, data quality auditing, and interactive dashboard reporting to evaluate customer demographics and solar system conversion rates.
 
