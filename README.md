@@ -40,6 +40,9 @@ The SQL script is organized into five progressive sections designed for **Micros
 The accompanying `.pbix` file connects to the `SunVolt` dataset to provide visual decision-support across **2 report pages** and **12 interactive visuals**. 
 * **Key Focus Areas**: Customer demographic distribution, regional conversion performance, income vs. purchase propensity, and installer distance impact.
 
+  <img width="1325" height="745" alt="image" src="https://github.com/user-attachments/assets/d1939973-ab5f-46e7-9370-9dd2700e3ccd" />
+
+
 ---
 
 ##  How to Run & Review
